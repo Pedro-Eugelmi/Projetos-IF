@@ -3,176 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=200, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShareHope</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://github.com/Pedro-Eugelmi/Projetos-IF/blob/master/ShareHope/assets/favicon.png?raw=true">
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
 <body>
-
-
     <header>
-        <div class="logo">
-            <a href=""><img draggable="false" src="https://github.com/Pedro-Eugelmi/Projetos-IF/blob/master/ShareHope/assets/logo.png?raw=true" alt="sharehope logo"></a>
+        <div class="leftarea">
+            <img class="logo" src="assets/logo.png" alt="">
+            <div class="text">
+                <p>“Uma <span>doação</span> pode parecer um gesto pequeno,
+                     mas o impacto que ela causa é capaz de mover montanhas de necessidades 
+                     e encher corações de <span>gratidão.</span>”</p>
+            </div>
+            <img class="donation" src="assets/donation.png" alt="">
+
         </div>
-
-        <nav class="header-menu">
-            <i class='bx bx-menu'></i>
-
-            <ul class="nav-ul active" >
-                <a class="selected" href="#home"><li>Home</li></a>
-                <a href="#information"><li>Sobre</li></a>
-                <a href="#team"><li>Equipe</li></a>
-
-            </ul>
-        </nav>
-
+        <div class="rightarea">
+            <div class="inputarea">
+                <div class="inputbox">
+                    <div class="enter">
+                        <input placeholder="Telefone, Nome de usuário ou email" type="text">
+                        <input placeholder="Senha" type="password">
+                        <div class="forgot">
+                            <a href="Esqueceu a senha?">Esqueceu a senha</a>
+                        </div>
+                        <button>Entrar</button>
+                    </div>   
+                </div>
+                <div class="apsstore"></div>
+            </div>
+        </div>
     </header>
 
-<section id="home" class="main">    
-    <div  class="phrase">
-        <h1 >Compartilhe Esperança, <span>Mude Vidas</span></h1>
-    </div>    
-
-</section>
-
-   <section id="information">
-        <div class="inf-area">
-            <h1>A Share<span>Hope</span> é uma plataforma dedicada a <span>compartilhar esperança.</span> </h1>
-            <p>Conectamos pessoas a projetos e instituições que precisam de apoio, 
-            abrangendo áreas como educação, saúde, meio ambiente e combate à pobreza. Além de doar,
-            você pode explorar, interagir em nosso feed e participar de discussões construtivas.
-            Junte-se a nós para compartilhar esperança e transformar vidas ao redor do mundo.</p>
-        </div>
-        <div class="how-it-works">
-            <h1>Como Funciona a <span>ShareHope:</span></h1>
-            <div class="inf-squares-area">
-                <div class="inf-squares-row">
-
-                    <div class="inf-square">
-                        <div class="square-icon">
-                            <i class='bx bxs-compass'></i>
-                        </div>
-                        <div class="square-title">
-                            <h1>Explore e Descubra</h1>
-                        </div>
-                        <div class="square-text">
-                            <p>Encontre projetos e instituições alinhados com suas causas e interesses. 
-                                Explore uma ampla variedade de opções e descubra novas maneiras de fazer a diferença.</p>
-                        </div>
-                    </div>
-
-                    <div class="inf-square">
-                        <div class="square-icon">
-                            <i class='bx bxs-donate-heart'></i>
-                        </div>
-                        <div class="square-title">
-                            <h1>Faça doações</h1>
-                        </div>
-                        <div class="square-text">
-                            <p> Contribua para causas importantes e apoie instituições que estão fazendo um impacto positivo.
-                                Faça doações de forma fácil, rápida e segura diretamente pelo aplicativo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="inf-squares-row">
-                    <div class="inf-square">
-                        <div class="square-icon">
-                            <i class='bx bx-line-chart'></i>
-                        </div>
-                        <div class="square-title">
-                            <h1>Acompanhe seu impacto</h1>
-                        </div>
-                        <div class="square-text">
-                            <p> Veja como suas doações estão fazendo a diferença.
-                                Acompanhe o progresso dos projetos apoiados e receba atualizações sobre o impacto gerado pelo seu apoio.</p>
-                        </div>
-                    </div>
-
-                    <div class="inf-square">
-                        <div class="square-icon">
-                            <i class='bx bxs-network-chart'></i>
-                        </div>
-                        <div class="square-title">
-                            <h1>Se envolva na comunidade</h1>
-                        </div>
-                        <div class="square-text">
-                            <p>Conecte-se e colabore com pessoas comprometidas em causas similares. Participe de fóruns e comunidades no aplicativo para impulsionar mudanças.</p>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-        </div>
-    
-      
-   </section>
-   <section id="team">
-        <h1>Nossa <Span>Equipe</Span></h1>
-    <div class="team-area">
-
-
-        <div  class="team-photo">
-            <div style="background-image: url('https://github.com/Pedro-Eugelmi/Projetos-IF/blob/master/ShareHope/assets/pedro.jpg?raw=true')" class="team-img">
-               
-            </div>
-            <div class="team-name">
-                <h1>Pedro Eugelmi</h1>
-            </div>
-        </div>
-    
-
-    
-            <div class="team-photo">
-                <div style="background-image: url('assets/alisson.png');" class="team-img">
-                
-                </div>
-                <div class="team-name">
-                    <h1>Alisson Zaramello</h1>
-                </div>
-        </div>
-    
-
-        <div class="team-photo">
-            <div style="background-image: 
-            url('assets/tiago.jpg');"
-            class="team-img">
-               
-            </div>
-            <div class="team-name">
-                <h1>Tiago Henrique</h1>
-            </div>
-        </div>
-
-        <div class="team-photo">
-            <div style="background-image: url('https://github.com/Pedro-Eugelmi/Projetos-IF/blob/master/ShareHope/assets/kaua.jpg?raw=true');" class="team-img">
-               
-            </div>
-            <div class="team-name">
-                <h1>Kauã Henrique</h1>
-            </div>
-        </div>
-
-        
-        <div class="team-photo">
-            <div style="background-image: url('assets/evandro.jpg');" class="team-img">
-               
-            </div>
-            <div class="team-name">
-                <h1>Evandro dos Santos</h1>
-            </div>
-        </div>
-    </div>
-    
-   </section>
-<footer>
-    <div class="iflogo">
-        <img src="assets/logoIF.png" alt="">
-    </div>
-</footer>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="script.js"></script>
 </body>
 </html>
